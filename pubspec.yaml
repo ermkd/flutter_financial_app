@@ -1,0 +1,36 @@
+name: flutter_financial_app
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  google_fonts: ^2.1.0
+  slide_to_confirm: ^0.0.7
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+    - assets/images/
+    - assets/svg/
+
+#  fonts:
+#    - family: nav_drawer
+#      fonts:
+#        - asset: assets/icons/nav_drawer.ttf
+#    - family: slide_icon
+#      fonts:
+#        - asset: assets/icons/slide_icon.ttf
